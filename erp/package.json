@@ -1,0 +1,14 @@
+{
+  "name": "erp",
+  "version": "1.0.0",
+  "description": "formal project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yanrong LI",
+  "license": "ISC",
+  "dependencies": {
+    "element-ui": "^2.3.9"
+  }
+}
