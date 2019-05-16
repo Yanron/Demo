@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+<style>
+ .words{
+   width:400px;
+   overflow:hidden;
+   text-overflow:ellipsis;
+   white-space: nowrap;
+   position:relative;
+ }
+  .more{
+    line-height:1.4em;
+    /* 3 times the line-height to show 3 lines */
+    height:4.2em;
+    overflow:hidden;
+    position:absolute;
+  }
+  .more::after{
+    content:'...';
+    position:absolute;
+    bottom:0;
+    right:0;
+    padding:0 10px 1px 45px;
+    background: white;
+  }
+</style>
+<div class="more">
+  　　For a long time it seemed to me that life was about to begin , real life. But, there was always some obsacle in the way, something to be gotten through first, some unfinnished business, time still to be served or a debt to be paid. Then life would begin.
+  　</div>
+
+<script type="text/javascript">
+
+</script>
+</body>
+</html>
